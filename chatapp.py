@@ -156,7 +156,7 @@ def user_input(user_question, show_sources=False, detailed=True):
 
 
 def main():
-    st.set_page_config("Multi PDF Chatbot", page_icon = ":scroll:")
+    st.set_page_config("Multi-PDFs ChatAI", page_icon="📚")
 
     if "night_mode" not in st.session_state:
         st.session_state.night_mode = True
@@ -167,7 +167,7 @@ def main():
 
     col_title, col_theme = st.columns([3.5, 1.5])
     with col_title:
-        st.header("Multi-PDF's 📚 - Chat Agent 🤖 ")
+        st.header("Multi-PDFs ChatAI 📚🤖")
     with col_theme:
         night_mode = st.toggle(
             "🌙 Night Mode" if st.session_state.night_mode else "☀️ Day Mode",
