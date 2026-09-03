@@ -2,12 +2,38 @@
 
 Chat seamlessly with Multiple PDFs using **LangChain**, **Google Gemini 1.5 Flash** & **FAISS Vector DB** — all powered by a beautiful **Streamlit** interface. Get instant, accurate responses grounded entirely in your uploaded documents. 🔥✨
 
+---
+
+## 🖼️ App Logo
+
+![Multi-PDFs ChatAI Logo](img/pdf_logo.jpg)
+
+---
+
 ## 📝 Description
 **Multi-PDFs ChatAI** is a Streamlit-based RAG (Retrieval-Augmented Generation) web application. Upload multiple PDF files, process them into a searchable vector index, and chat with an AI that answers questions directly from your document content — with full chat history, Day/Night theme, and source viewing.
 
+---
+
+## 💻 App Demo Screenshots
+
+### Chat in Action
+![Demo 1](img/demo1.jpg)
+
+### Detailed Answers from PDFs
+![Demo 2](img/demo2.jpg)
+
+### Multi-Document Chat
+![Demo 3](img/demo3.jpg)
+
+### Wide Application Answers
+![Demo 4](img/demo4.jpg)
+
+---
+
 ## 🎯 How It Works
 
-![MultiPDF Chat App Diagram](img/Architecture.jpg)
+![MultiPDF Chat App Architecture](img/Architecture.jpg)
 
 1. **PDF Loading** — PyMuPDF extracts clean, structured text from uploaded PDFs.
 2. **Text Chunking** — Text is split into 1000-character chunks with 150-char overlap for precise retrieval.
@@ -16,6 +42,8 @@ Chat seamlessly with Multiple PDFs using **LangChain**, **Google Gemini 1.5 Flas
 5. **Similarity Search** — Your question is embedded and matched against stored chunks.
 6. **Answer Generation** — Gemini 1.5 Flash generates an answer grounded in retrieved context.
 7. **Chat Memory** — Full conversation history is preserved in the session.
+
+---
 
 ## ✨ Key Features
 
@@ -28,6 +56,8 @@ Chat seamlessly with Multiple PDFs using **LangChain**, **Google Gemini 1.5 Flas
 - ⚡ **Cached Vector Store** — 5x faster responses via `@st.cache_resource`
 - 🗑️ **Clear Chat** — Reset conversation anytime
 
+---
+
 ## 🌟 Tech Stack
 
 | Layer | Technology |
@@ -39,6 +69,8 @@ Chat seamlessly with Multiple PDFs using **LangChain**, **Google Gemini 1.5 Flas
 | **Orchestration** | LangChain (LCEL) |
 | **UI** | Streamlit |
 | **Environment** | python-dotenv |
+
+---
 
 ## ▶️ Installation
 
@@ -53,9 +85,7 @@ cd Multi-PDFs_ChatAI
 pip install -r requirements.txt
 ```
 
-**3. Set up your Google API key:**
-
-Create a `.env` file in the project root:
+**3. Set up your Google API key — create a `.env` file:**
 ```
 GOOGLE_API_KEY=your_gemini_api_key_here
 ```
@@ -65,6 +95,8 @@ Get your key from: https://aistudio.google.com/app/apikey
 ```bash
 streamlit run chatapp.py
 ```
+
+---
 
 ## 💡 Usage
 
