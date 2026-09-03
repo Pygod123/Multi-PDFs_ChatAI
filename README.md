@@ -1,4 +1,4 @@
-﻿# Multi-PDFs ChatAI 📚🤖
+# Multi-PDFs ChatAI 📚🤖
 
 Chat seamlessly with Multiple PDFs using **LangChain**, **Google Gemini 1.5 Flash** & **FAISS Vector DB** — all powered by a beautiful **Streamlit** interface. Get instant, accurate responses grounded entirely in your uploaded documents. 🔥✨
 
@@ -15,19 +15,13 @@ Chat seamlessly with Multiple PDFs using **LangChain**, **Google Gemini 1.5 Flas
 
 ---
 
-## 💻 App Demo Screenshots
+## 💻 App Screenshots
 
-### Chat in Action
-![Demo 1](img/demo1.jpg)
+### 🌙 Main Dashboard (Night Mode)
+![Main Dashboard](img/screenshot_main.png)
 
-### Detailed Answers from PDFs
-![Demo 2](img/demo2.jpg)
-
-### Multi-Document Chat
-![Demo 3](img/demo3.jpg)
-
-### Wide Application Answers
-![Demo 4](img/demo4.jpg)
+### ☀️ Day Mode View
+![Day Mode](img/screenshot_night.png)
 
 ---
 
