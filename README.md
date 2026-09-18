@@ -15,21 +15,6 @@ Chat seamlessly with Multiple PDFs using **LangChain**, **Google Gemini 1.5 Flas
 
 ---
 
-## 💻 App Demo — In Action
-
-### 📄 Chat with PDFs — LLM Agents Answer
-![Demo 1 - Chat in action](img/demo1.jpg)
-
-### 🤖 Detailed Multi-Agent System Answer
-![Demo 2 - Detailed answer](img/demo2.jpg)
-
-### 📚 CALM Framework Explanation
-![Demo 3 - CALM answer](img/demo3.jpg)
-
-### 🌐 LLM Agents Prospect Applications
-![Demo 4 - Wide applications](img/demo4.jpg)
-
----
 
 ## 🎯 How It Works
 
